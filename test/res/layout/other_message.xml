@@ -1,0 +1,274 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:background="#1E90FF"
+            android:padding="10px"
+            android:text="户籍基本信息" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:background="#1E90FF"
+            android:padding="10px"
+            android:text="返回" />
+    </LinearLayout>
+
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+ <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="1"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="姓名"
+ ></TextView> 
+ <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/name" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="张卫红" ></TextView> 
+  <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="1"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="姓别"></TextView> 
+ <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/sex" 
+ android:background="@drawable/shap2"
+  android:layout_weight="1"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="男" ></TextView>  
+  <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="人员类型"></TextView> 
+ <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/memType" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="嫌疑人" ></TextView> 
+
+</LinearLayout>
+
+  
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="2"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="案件名称"
+ ></TextView> 
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/caseTitle" 
+ android:layout_weight="1"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="7.15入室抢劫案" ></TextView> 
+ 
+</LinearLayout>
+ 
+ 
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="2"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="案件编号"
+ ></TextView> 
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/caseNum" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="F1561564" ></TextView> 
+ 
+</LinearLayout>
+ 
+ 
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="2"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="案件状态"
+ ></TextView> 
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/caseState" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="立案" ></TextView> 
+ 
+</LinearLayout>
+ 
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="2"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="受理单位"
+ ></TextView> 
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/accCorparation" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="成都市锦江区派出所" ></TextView> 
+ 
+</LinearLayout>
+
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="2"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="联系电话"
+ ></TextView> 
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/telephone" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="13524120321" ></TextView> 
+ 
+</LinearLayout>
+
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+         >
+
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:id="@+id/TextView04" 
+ android:layout_weight="2"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="主要案情"
+ ></TextView> 
+<TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:id="@+id/mainCase" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="车辆加油信息模块-从人员信息界面返回主界面后，在加油站名称右边有“其他信息”提示按钮，目前构想如果该人员正常则显示绿色，不正常则显示其他颜色如红色："></TextView> 
+ 
+</LinearLayout>
+ 
+ 
+ 
+ 
+
+</LinearLayout>

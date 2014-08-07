@@ -1,0 +1,235 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10px"
+         >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:background="#1E90FF"
+            android:padding="10px"
+            android:text="车辆加油记录" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:background="#1E90FF"
+            android:padding="10px"
+            android:text="返回" />
+    </LinearLayout>
+    
+<FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+       <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30px"
+        android:background="@drawable/shap"/>
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+           
+           <RelativeLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content" >
+               <LinearLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                   >
+               
+                <TextView
+                   android:id="@+id/tv2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="40px"
+                   android:layout_marginTop="20px"
+                   android:gravity="center"
+                   android:text="驾驶人：" />
+
+               <TextView
+                   android:id="@+id/name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="20px"
+                   android:text="张卫红" />
+               
+               <TextView
+                   android:id="@+id/tv2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="25px"
+                   android:layout_marginTop="20px"
+                   android:gravity="center"
+                   android:text="车牌号码：" />
+
+               <TextView
+                   android:id="@+id/carnum"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="20px"
+                   android:text="川A888888" />
+            
+             </LinearLayout>
+           </RelativeLayout>
+           
+           <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content" >
+               <TextView 
+                   android:layout_width="fill_parent"
+                   android:layout_height="2dp"
+                   android:layout_marginTop="10px"
+                   android:layout_marginLeft="30px"
+                   android:layout_marginRight="30px"
+                   android:background="#F0F0F0"
+                   />
+        </RelativeLayout>
+        
+           <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content" >
+               
+                <TextView
+                   android:id="@+id/tv2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="40px"
+                   android:layout_marginRight="20px"
+                   android:layout_marginTop="10px"
+                   android:gravity="center"
+                   android:text="身份证号：" />
+
+               <TextView
+                   android:id="@+id/pId"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_toRightOf="@id/tv2"
+                   android:layout_alignBaseline="@id/tv2"
+                   android:layout_marginRight="15px"
+                   android:layout_marginTop="10px"
+                   android:text="7405107519173749057" />
+           </RelativeLayout>
+
+       </LinearLayout>
+ </FrameLayout>
+    
+ <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+       <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="40px"
+        android:background="@drawable/shap"/>
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+
+           <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content" >
+               
+                <TextView
+                   android:id="@+id/tv2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="40px"
+                   android:layout_marginRight="20px"
+                   android:layout_marginTop="25px"
+                   android:gravity="center"
+                   android:text="加油时间：" />
+
+               <TextView
+                   android:id="@+id/time"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_toRightOf="@id/tv2"
+                   android:layout_alignBaseline="@id/tv2"
+                   android:layout_marginRight="15px"
+                   android:layout_marginTop="25px"
+                   android:text="2014-5-6 09:33" />
+            
+
+           </RelativeLayout>
+           
+            <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content" >
+               <TextView 
+                   android:layout_width="fill_parent"
+                   android:layout_height="2dp"
+                   android:layout_marginTop="10px"
+                   android:layout_marginLeft="30px"
+                   android:layout_marginRight="30px"
+                   android:background="#F0F0F0"
+                   />
+        </RelativeLayout>
+        
+            <RelativeLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content" >
+               
+                <TextView
+                   android:id="@+id/tv2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="40px"
+                   android:layout_marginRight="20px"
+                   android:layout_marginTop="10px"
+                   android:gravity="center"
+                   android:text="加油量（升）：" />
+
+               <TextView
+                   android:id="@+id/gasnum"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_toRightOf="@id/tv2"
+                   android:layout_alignBaseline="@id/tv2"
+                   android:layout_marginRight="15px"
+                   android:layout_marginTop="20px"
+                   android:text="45" />
+            
+
+           </RelativeLayout>
+         
+       </LinearLayout>
+ </FrameLayout>
+       
+  
+
+
+</LinearLayout>

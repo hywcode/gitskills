@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:background="#1E90FF"
+            android:padding="10px"
+            android:text="户籍基本信息" />
+
+        <Button
+            android:id="@+id/returnBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:background="#1E90FF"
+            android:padding="10px"
+            android:text="返回" />
+    </LinearLayout>
+
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+ <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="1"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="姓名"
+ ></TextView> 
+ <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/name" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="张卫红" ></TextView> 
+  <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="1"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="姓别"></TextView> 
+ <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/sex" 
+ android:background="@drawable/shap2"
+  android:layout_weight="1"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="男" ></TextView>  
+  <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="民族"></TextView> 
+ <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:id="@+id/nation" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="汉族" ></TextView> 
+
+</LinearLayout>
+
+  
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="2"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="身份证号"
+ ></TextView> 
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/pId" 
+ android:layout_weight="1"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="98261342861905" ></TextView> 
+ 
+</LinearLayout>
+ 
+ 
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="2"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="出生日期"
+ ></TextView> 
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/birthday" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="98261342861905" ></TextView> 
+ 
+</LinearLayout>
+ 
+ 
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/TextView04" 
+ android:layout_weight="2"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="户籍信息"
+ ></TextView> 
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/address" 
+  android:layout_weight="1"
+  android:background="@drawable/shap2"
+  android:padding="10px"
+ android:gravity="center"
+ android:text="电子科技大学" ></TextView> 
+ 
+</LinearLayout>
+ 
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+         >
+
+ <TextView 
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:id="@+id/TextView04" 
+ android:layout_weight="2"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:text="人员照片"
+ ></TextView> 
+<ImageView  
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:id="@+id/image" 
+ android:layout_weight="1"
+ android:background="@drawable/shap2"
+ android:padding="10px"
+ android:gravity="center"
+ android:src="@drawable/pic6"></ImageView> 
+ 
+</LinearLayout>
+ 
+ 
+ 
+ 
+
+</LinearLayout>

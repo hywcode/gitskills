@@ -1,0 +1,191 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10px"
+         >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:background="#1E90FF"
+            android:padding="10px"
+            android:text="驾驶证信息" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:background="#1E90FF"
+            android:padding="10px"
+            android:text="返回" />
+    </LinearLayout>
+  
+ <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="175dp"
+        android:layout_gravity="center"
+        >
+        
+       <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="175dp"
+        android:background="@drawable/shap"
+        android:layout_marginLeft="20px"
+         android:layout_marginRight="20px"
+        android:layout_gravity="center"/>
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="175dp"
+           android:orientation="vertical" >
+
+           <RelativeLayout
+               android:layout_width="wrap_content"
+               android:layout_height="40dp" >
+
+               <TextView
+                   android:id="@+id/tvw1"
+                   android:layout_width="230dp"
+                   android:layout_height="40dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginTop="5px" 
+                   android:gravity="center"/>
+
+               <TextView
+                   android:id="@+id/tv1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginLeft="40px"
+                   android:layout_marginTop="5px"
+                   android:gravity="center"
+                   android:text="出生日期：" />
+
+        </RelativeLayout>
+        <RelativeLayout
+               android:layout_width="275dp"
+               android:layout_height="2dp" >
+               <TextView 
+                   android:layout_width="fill_parent"
+                   android:layout_height="2dp"
+                   android:layout_marginLeft="5px"
+                   android:layout_marginRight="5px"
+                   android:background="#F0F0F0"
+                   />
+        </RelativeLayout>
+           
+        <RelativeLayout
+               android:layout_width="wrap_content"
+               android:layout_height="40dp" >
+
+               <TextView
+                   android:id="@+id/tvw2"
+                   android:layout_width="230dp"
+                   android:layout_height="40dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="5px"
+                   android:layout_marginTop="5px" 
+                   android:gravity="center"
+                   android:text="2009-4-3"/>
+
+               <TextView
+                   android:id="@+id/tv1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginLeft="40px"
+                   android:layout_marginTop="5px"
+                   android:gravity="center"
+                   android:text="领证日期：" />
+
+        </RelativeLayout>
+        <RelativeLayout
+               android:layout_width="275dp"
+               android:layout_height="2dp" >
+               <TextView 
+                   android:layout_width="fill_parent"
+                   android:layout_height="2dp"
+                   android:layout_marginLeft="5px"
+                   android:layout_marginRight="5px"
+                   android:background="#F0F0F0"
+                   />
+        </RelativeLayout>
+        
+        <RelativeLayout
+               android:layout_width="wrap_content"
+               android:layout_height="40dp" >
+
+               <TextView
+                   android:id="@+id/tvw3"
+                   android:layout_width="230dp"
+                   android:layout_height="40dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="5px"
+                   android:layout_marginTop="5px" 
+                   android:gravity="center"
+                   android:text="C"/>
+
+               <TextView
+                   android:id="@+id/tv1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginLeft="40px"
+                   android:layout_marginTop="5px"
+                   android:gravity="center"
+                   android:text="驾证状态：" />
+
+        </RelativeLayout>
+        <RelativeLayout
+               android:layout_width="275dp"
+               android:layout_height="2dp" >
+               <TextView 
+                   android:layout_width="fill_parent"
+                   android:layout_height="2dp"
+                   android:layout_marginLeft="5px"
+                   android:layout_marginRight="5px"
+                   android:background="#F0F0F0"
+                   />
+        </RelativeLayout>
+        
+        <RelativeLayout
+               android:layout_width="wrap_content"
+               android:layout_height="40dp" >
+
+               <TextView
+                   android:id="@+id/tvw4"
+                   android:layout_width="230dp"
+                   android:layout_height="40dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="5px"
+                   android:layout_marginTop="5px" 
+                   android:gravity="center"
+                   android:text="A"/>
+
+               <TextView
+                   android:id="@+id/tv1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginLeft="40px"
+                   android:layout_marginTop="5px"
+                   android:gravity="center"
+                   android:text="准驾车型：" />
+
+        </RelativeLayout>
+        
+       </LinearLayout> 
+</FrameLayout>
+
+
+</LinearLayout>
